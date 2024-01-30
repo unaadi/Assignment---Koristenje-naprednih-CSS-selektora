@@ -1,7 +1,5 @@
-#first-div > p:nth-child(2)::after
-#first-div > p:nth-child(3)::after
-{
-    
+#first-div > p:nth-child(2)::after,
+#first-div > p:nth-child(3)::after {
     content: " NEW";
     color: yellow;
 }
